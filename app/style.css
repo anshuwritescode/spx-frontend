@@ -1,0 +1,39 @@
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust this value for desired distance */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .image-container {
+    max-width: 300px;
+    padding-bottom: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: upDown 3s infinite; /* Adjust timing as needed */
+  }
+
+  .dashbord_menu.max-w-screen-xl.flex.flex-wrap.items-center.justify-between.py-2.px-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+  .text-black.dashbord_btn {
+    display: none;
+}
+
+button.inline-flex.items-center.p-2.w-10.h-10.justify-center.text-sm.bg-\[\#357ae8\].rounded-lg.md\:hidden.focus\:ring-2.focus\:ring-gray-200.dark\:hover\:bg-gray-700.dark\:focus\:ring-gray-600 {
+  margin-left: 69px;
+}
+}
+
+
+
