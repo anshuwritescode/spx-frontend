@@ -53,7 +53,6 @@ const Header = () => {
               id="navbar-dropdown"
             >
               <ul class="flex gap-6 md:gap-0 flex-col font-medium p-4 md:p-0  md:space-x-8 rtl:space-x-reverse md:flex-row mt-2">
-                
                 <li>
                   <a
                     href="/Smart Profit X.pdf"
